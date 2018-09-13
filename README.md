@@ -69,7 +69,7 @@ Major GPA: 3.739
 
 ---
 ## Interests, Skills and Intangibles
-Hobbies: Board Games, Poker, Basketball, Reading the Manual
-Language: Python, Javascript, Psuedocode, fish, Mandarin
-Skills: INDEX-MATCH Fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User
-Intangibles: Enjoys friendly competition, clicks buttons really fast
+Hobbies: Board Games, Poker, Basketball, Reading the Manual  
+Language: Python, Javascript, Psuedocode, fish, Mandarin  
+Skills: INDEX-MATCH Fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User  
+Intangibles: Enjoys friendly competition, clicks buttons really fast  
