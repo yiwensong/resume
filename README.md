@@ -2,12 +2,14 @@
 
 [Personal Site](https://yiwensong.com) |
 [Email](mailto:songzgy@gmail.com)
+
 ---
 ## Education
 ### University of California, Berkeley - June 2016
 
 Computer Science, BA  
 Major GPA: 3.739
+
 ---
 ## Work Experience
 ### Release Engineering at Yelp (Nov 2017 - Present)
