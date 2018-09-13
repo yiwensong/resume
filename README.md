@@ -57,7 +57,7 @@ Major GPA: 3.739
 
 ### [Yet Another Personal Site | DefDontHire.Me](https://github.com/yiwensong/yiwensong.github.io)
 
-* We are at a point in the advancement of technology where you can create a beautiful website without knowing any web.
+* Technology has advanced to a point where you can create a beautiful website without knowing any web.
 * Literally anyone can download a Bootstrap template and write some BS and call it a personal site.
 * [Exhibit A](https://yiwensong.com)
 
