@@ -50,7 +50,7 @@ Major GPA: 3.739
 ### [Poker AI](https://github.com/yiwensong/huplo)
 
 * Heads Up Pot-Limit Omaha (HUPLO) AI that uses Monte Carlo search trees and bad machine learning.
-* Preflop play uses machine learning on features of hole cards like connectedness, suitedness, pairedness and raw value.
+* Preflop play uses machine learning on hole cards features like connectedness, suitedness and value.
 * Postflop play uses Monte Carlo Search Trees.
 * 💩 at poker.
 * Passable at Tic-Tac-Toe.
@@ -59,7 +59,7 @@ Major GPA: 3.739
 
 * We are at a point in the advancement of technology where you can create a beautiful website without knowing any web.
 * Literally anyone can download a Bootstrap template and write some BS and call it a personal site.
-* [Exhibit 1](https://yiwensong.com)
+* [Exhibit A](https://yiwensong.com)
 
 ### [yiwen.date](https://github.com/yiwensong/yiwen.date)
 
