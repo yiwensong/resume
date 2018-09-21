@@ -1,6 +1,6 @@
 # yiwen song
 
-[Personal Site](https://yiwensong.com) |
+[Personal Site](http://yiwensong.com) |
 [Email](mailto:songzgy@gmail.com)
 
 ---
@@ -61,7 +61,7 @@ Major GPA: 3.739
 
 * Technology has advanced to a point where you can create a beautiful website without knowing any web.
 * Literally anyone can download a Bootstrap template and write some BS and call it a personal site.
-* [Exhibit A](https://yiwensong.com)
+* [Exhibit A](http://yiwensong.com)
 
 ### [yiwen.date](https://github.com/yiwensong/yiwen.date)
 
