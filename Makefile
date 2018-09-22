@@ -22,3 +22,10 @@ clean:
 .PHONY: build
 build: venv
 	venv/bin/generate-resume-pdf
+
+.PHONY: dist
+dist: venv
+	venv/bin/python setup.py sdist bdist_wheel
+
+upload_to_pypi: venv
+	venv/bin/twine upload dist/*

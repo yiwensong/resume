@@ -6,3 +6,4 @@ pre-commit
 pylint
 pytest
 requirements-tools
+twine
