@@ -3,7 +3,8 @@ language: python
 # cache package wheels (1 cache per python version)
 cache: pip
 python:
-  - "3.7"
+  # TODO: Bump to 3.7 when travis supports that
+  - "3.6"
 
 install:
   - pip install tox-travis
