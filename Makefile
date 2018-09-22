@@ -27,5 +27,5 @@ build: venv
 dist: venv
 	venv/bin/python setup.py sdist bdist_wheel
 
-upload_to_pypi: venv
+upload_to_pypi: venv dist
 	venv/bin/twine upload dist/*

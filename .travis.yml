@@ -11,4 +11,4 @@ install:
 
 script:
   - tox
-  - venv/bin/twine upload dist/*
+  - make upload_to_pypi
