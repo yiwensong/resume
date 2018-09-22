@@ -1,14 +1,16 @@
 sudo: false
 language: python
-# cache package wheels (1 cache per python version)
 cache: pip
 python:
-  # TODO: Bump to 3.7 when travis supports that
-  - "3.6"
-
+- '3.6'
 install:
-  - pip install tox-travis
-
+- pip install tox-travis
 script:
-  - tox
-  - make upload_to_pypi
+- tox
+deploy:
+  provider: pypi
+  user: yiwensong
+  password:
+    secure: 41E+SGWHnHRXpTraFjqEvrUGCqFwdVgFCxpZGV3PaysrnjMWJX66Y8gCND+zPQNth+z4vLbWuHz3njuvwppMIK8Y5zNyroghy1ZoDc6o/9/LV6GrwnpzjLkYWh7bZEDkCSra+A7AZJHpqQANFILMlDId16CYLH9htzAJs1ES+qiki3Bw9jSroZ5Yy+1ODl3rvN4a5C14NqunQKhtMsyh2okGDuEJzVGUoxdNPQLHPdib6ut7/UfwzV9EQvxMhh08ePobs635Y2VoS4ieebPw2kUdXe2axswrfDFFjtCXjnoFRmsS9dlYmT2ZVlbHMVJllcl+C1K2aJmetoPK2V1WrlLZDgfzpyjGpLNi9LmgvTqAaU9i+jd/1Y359B6rXMYHHHGTHvKwlQsWR8cMTYAK7kU9MFSMjzSGm4ca/7Yst2WSRO5xFLXTtoggcyEUhA2TOEGWGzNs73p6jhzxTs8ve4yifCI7r0LwkuYRt7OzixCNyoVI9XEduM678W3ZnAqq4KifWTIL6LoYZoOkijur5C/cGycah4OXIbglIOs+ffg64TFgglrS99V//1kH9yaDiwJ8sh/8tK/xG31m04op4UMlUmMUSme/XPrid6dxgvnyGcxWVAYWPJEwoe/mICGIEiWQtaiNNJTKGfD5ooGAMedVdZ9zKD0L3/WZ1/7rkzQ=
+  on:
+    tags: true
