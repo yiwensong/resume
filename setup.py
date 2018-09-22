@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='md-resume',
-    version='0.1.0',
+    version='0.1.1',
     license='MIT',
     author='yiwen song',
     author_email='songzgy@gmail.com',
