@@ -7,6 +7,7 @@ install:
 - pip install tox-travis
 script:
 - tox
+- make clean
 deploy:
   provider: pypi
   user: yiwensong

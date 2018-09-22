@@ -16,6 +16,9 @@ clean:
 	rm -rf venv
 	rm -rf .pytest_cache
 	rm -rf .coverage
+	rm -rf *.egg-info
+	rm -rf build
+	rm -rf dist
 	find . -name '*.pyc' | xargs rm -rf
 	find . -name '__pycache__' | xargs rm -rf
 
