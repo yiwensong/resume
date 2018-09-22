@@ -1,5 +1,9 @@
 # yiwen song
 
+[![Build Status](https://travis-ci.org/yiwensong/resume.svg?branch=master)](https://travis-ci.org/yiwensong/resume)
+[![Coverage Status](https://coveralls.io/repos/github/yiwensong/resume/badge.svg?branch=master)](https://coveralls.io/github/yiwensong/resume?branch=master)
+[![PyPI version](https://badge.fury.io/py/md-resume.svg)](https://badge.fury.io/py/md-resume)
+
 [Personal Site](http://yiwensong.com) |
 [Email](mailto:songzgy@gmail.com)
 

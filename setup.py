@@ -1,5 +1,8 @@
 import setuptools
 
+with open('README.md', 'r') as readme:
+    README_TEXT = readme.read()
+
 setuptools.setup(
     name='md-resume',
     version='0.1.1',
@@ -8,6 +11,8 @@ setuptools.setup(
     author_email='songzgy@gmail.com',
     url='https://github.com/yiwensong/resume',
     description='markdown resume prettifier',
+    long_description=README_TEXT,
+    long_description_content_type='text/markdown',
     packages=setuptools.find_packages(exclude=['tests*']),
     install_requires=[
         'Markdown',
