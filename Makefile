@@ -18,3 +18,7 @@ clean:
 	rm -rf .coverage
 	find . -name '*.pyc' | xargs rm -rf
 	find . -name '__pycache__' | xargs rm -rf
+
+.PHONY: build
+build: venv
+	venv/bin/generate-resume-pdf

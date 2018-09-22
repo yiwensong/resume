@@ -1,4 +1,5 @@
 """md_resume"""
+import os
 import typing
 
 import markdown
@@ -85,13 +86,16 @@ def add_css_to_html(html: str, css: str) -> str:
 
 
 def main(
-        file_out: str = 'resume.html',
+        file_out: str = 'build/resume.html',
         file_in: str = 'README.md',
         style: typing.Optional[typing.Dict] = None,
 ) -> None:
     """Converts README.md into a nice html."""
     if style is None:
         style = DEFAULT_STYLE
+    file_out_dir = os.path.dirname(file_out)
+    if not os.path.exists(file_out_dir):
+        os.makedirs(file_out_dir)
     html = convert_file(file_in)
     css = generate_css_from_dict(style)
     pretty = add_css_to_html(html, css)

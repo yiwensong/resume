@@ -8,7 +8,7 @@ setuptools.setup(
     author_email='songzgy@gmail.com',
     url='https://github.com/yiwensong/resume',
     description='markdown resume prettifier',
-    package=setuptools.find_packages(exclude=['tests*']),
+    packages=setuptools.find_packages(exclude=['tests*']),
     install_requires=[
         'Markdown',
     ],
@@ -22,4 +22,9 @@ setuptools.setup(
         'pretty',
         'yiwen',
     ],
+    entry_points={
+        'console_scripts': [
+            'generate-resume-pdf = md_resume:main',
+        ],
+    },
 )

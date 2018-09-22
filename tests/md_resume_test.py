@@ -30,3 +30,30 @@ def test_add_css_to_html():
     """test adding css."""
     result = md_resume.add_css_to_html('a', 'b')
     assert result == '<style>b</style>a'
+
+
+def test_main(tmpdir):
+    """test main()."""
+    path_out = str(tmpdir.join('output.html'))
+    file_in = tmpdir.join('in.md')
+    file_in.write('''# hello world''')
+    path_in = str(file_in)
+    md_resume.main(file_out=path_out, file_in=path_in, style={})
+
+
+def test_main_default_style(tmpdir):
+    """test main()."""
+    path_out = str(tmpdir.join('output.html'))
+    file_in = tmpdir.join('in.md')
+    file_in.write('''# hello world''')
+    path_in = str(file_in)
+    md_resume.main(file_out=path_out, file_in=path_in)
+
+
+def test_main_no_dir(tmpdir):
+    """test main()."""
+    path_out = f'{tmpdir}/doesntexistyet/out.html'
+    file_in = tmpdir.join('in.md')
+    file_in.write('''# hello world''')
+    path_in = str(file_in)
+    md_resume.main(file_out=path_out, file_in=path_in)
