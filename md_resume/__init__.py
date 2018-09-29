@@ -1,4 +1,5 @@
 """md_resume"""
+import argparse
 import os
 import typing
 
@@ -85,22 +86,69 @@ def add_css_to_html(html: str, css: str) -> str:
     return f'''<style>{css}</style>{html}'''
 
 
-def main(
-        file_out: str = 'build/resume.html',
+def convert_to_html(
         file_in: str = 'README.md',
+        file_out: str = 'build/resume.html',
         style: typing.Optional[typing.Dict] = None,
+        stylesheet: typing.Optional[str] = None,
 ) -> None:
-    """Converts README.md into a nice html."""
-    if style is None:
+    """Converts README.md into a nice html.
+
+    Arguments:
+        file_in: the path to the input markdown file.
+        file_out: the path to the output html.
+        style: a dict that represents the css style.
+            overrides ``stylesheet``.
+        stylesheet: a path to a custom css file.
+            overrided by ``style``.
+    """
+    if style is None and not stylesheet:
         style = DEFAULT_STYLE
+    if not stylesheet:
+        css = generate_css_from_dict(style)
+    else:
+        with open(stylesheet, 'r') as css_file:
+            css = css_file.read()
+
     file_out_dir = os.path.dirname(file_out)
     if not os.path.exists(file_out_dir):
         os.makedirs(file_out_dir)
     html = convert_file(file_in)
-    css = generate_css_from_dict(style)
     pretty = add_css_to_html(html, css)
     with open(file_out, 'w') as output_fd:
         output_fd.write(pretty)
+
+
+def main() -> None:
+    """Does all the argparsing and converts the resume."""
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        'input_file',
+        default='README.md',
+        help=(
+            'The markdown file that you want to convert. '
+            'Defaults to README.md'
+        ),
+    )
+    parser.add_argument(
+        'output_file',
+        default='build/resume.html',
+        help=(
+            'The path to the output. '
+            'Defaults to build/resume.html.'
+        ),
+    )
+    parser.add_argument(
+        '--style',
+        '-s',
+        help='The path to the style file.',
+    )
+    args = parser.parse_args()
+    convert_to_html(
+        file_in=args.input_file,
+        file_out=args.output_file,
+        stylesheet=args.style,
+    )
 
 
 if __name__ == '__main__':
