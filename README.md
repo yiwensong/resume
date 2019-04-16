@@ -16,12 +16,18 @@ Major GPA: 3.739
 
 ---
 ## Work Experience
-### Release Engineering at Yelp (Nov 2017 - Present)
+### Deploy Team at Stripe (Apr 2019 - Present)
 *San Francisco, CA*
 
-* Worked on Jenkins continuous deployment and integration of Yelp services.
+* Didn't do much yet, really.
+
+### Release Engineering at Yelp (Nov 2017 - Apr 2019)
+*San Francisco, CA*
+
+* Worked on emitting and displaying key developer velocity metrics to improve Yelp engineering.
 * Designed and implemented API for determining responsibility and ownership of code, databases, and other resources.
 * Improved Git management tools and code review infrastructure to be more resilient to catastrophic failures.
+* Enhanced the Jenkins user experience with tooling for log reading, standardized Jenkins pipelines, and beyond.
 
 ### Trading and Data at Old Mission Capital (Aug 2016 - May 2017)
 *Chicago, IL*
@@ -70,12 +76,12 @@ Major GPA: 3.739
 ### [yiwen.date](https://github.com/yiwensong/yiwen.date)
 
 * Another personal site, but maybe a little more personal.
-* Frontend written in react, backend written with Flask.
+* Frontend written in React, backend written with Flask.
 * [Please do not attempt to date potential future employees.](https://yiwen.date)
 
 ---
 ## Interests, Skills and Intangibles
 **Hobbies**: Board Games, Poker, Basketball, Reading the Manual  
-**Language**: Python, Javascript, Psuedocode, fish, Mandarin  
+**Language**: Python, React (which is technically Javascript, I guess), Psuedocode, fish, Mandarin  
 **Skills**: INDEX-MATCH Fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User  
 **Intangibles**: Enjoys friendly competition, clicks buttons really fast  
