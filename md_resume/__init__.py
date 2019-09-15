@@ -125,6 +125,7 @@ def main() -> None:
     parser.add_argument(
         'input_file',
         default='README.md',
+        nargs='?',
         help=(
             'The markdown file that you want to convert. '
             'Defaults to README.md'
@@ -133,6 +134,7 @@ def main() -> None:
     parser.add_argument(
         'output_file',
         default='build/resume.html',
+        nargs='?',
         help=(
             'The path to the output. '
             'Defaults to build/resume.html.'
