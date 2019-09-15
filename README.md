@@ -19,29 +19,24 @@ Major GPA: 3.739
 ### Deploy Team at Stripe (Apr 2019 - Present)
 *San Francisco, CA*
 
-* Didn't do much yet, really.
+* Lead the unattended deployments project for safely automating service deployments.
+* Improved canarying and added automated reliability features by integrating with our health evaluation service.
+* Designed improvments to the deployment web frontend to be more clear and user-friendly.
 
 ### Release Engineering at Yelp (Nov 2017 - Apr 2019)
 *San Francisco, CA*
 
-* Worked on emitting and displaying key developer velocity metrics to improve Yelp engineering.
+* Worked on an internal frontend service that tracks and displays tech debt and developer prductivity.
 * Designed and implemented API for determining responsibility and ownership of code, databases, and other resources.
 * Improved Git management tools and code review infrastructure to be more resilient to catastrophic failures.
-* Enhanced the Jenkins user experience with tooling for log reading, standardized Jenkins pipelines, and beyond.
 
 ### Trading and Data at Old Mission Capital (Aug 2016 - May 2017)
+### Trading Intern at Old Mission Capital (Jun 2015 - Aug 2015)
 *Chicago, IL*
 
 * Improved data pipeline and research infrastructure reliability and usability.
 * Added parallelism to data ingestion and created automated sanity checking to reduce overhead of analysis.
 * Developed a Python package for quickly scripting models and risk calculation on live market data.
-
-### Trading Intern at Old Mission Capital (Jun 2015 - Aug 2015)
-*Chicago, IL*
-
-* Studied the effect of US high frequency trading on international markets.
-* Used Python (Scikit-Learn, Matplotlib) to analyze data and visualize stastical models.
-* Wrote research reports to communicate studies to traders whose products were impacted by the studies.
 
 ---
 ## Projects
@@ -81,7 +76,7 @@ Major GPA: 3.739
 
 ---
 ## Interests, Skills and Intangibles
-**Hobbies**: Board Games, Poker, Basketball, Reading the Manual  
-**Language**: Python, React (which is technically Javascript, I guess), Psuedocode, fish, Mandarin  
+**Hobbies**: Reading the manual, probability  
+**Language**: Python, React (which is Javascript, I guess), Golang, Psuedocode, fish, Mandarin  
 **Skills**: INDEX-MATCH Fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User  
-**Intangibles**: Enjoys friendly competition, clicks buttons really fast  
+**Intangibles**: Clicks buttons really fast, doesn't use an external monitor  
