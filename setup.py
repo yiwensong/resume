@@ -5,7 +5,7 @@ with open('README.md', 'r') as readme:
 
 setuptools.setup(
     name='md-resume',
-    version='0.2.0',
+    version='0.2.1',
     license='MIT',
     author='yiwen song',
     author_email='songzgy@gmail.com',
