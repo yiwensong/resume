@@ -31,21 +31,21 @@ Major GPA: 3.739
 * Improved Git management tools and code review infrastructure to be more resilient to catastrophic failures.
 
 ### Trading and Data at Old Mission Capital (Aug 2016 - May 2017)
-### Trading Intern at Old Mission Capital (Jun 2015 - Aug 2015)
 *Chicago, IL*
 
 * Improved data pipeline and research infrastructure reliability and usability.
 * Added parallelism to data ingestion and created automated sanity checking to reduce overhead of analysis.
 * Developed a Python package for quickly scripting models and risk calculation on live market data.
 
+### Trading Intern at Old Mission Capital (Jun 2015 - Aug 2015)
+
 ---
 ## Projects
 ### [GPU Compression](https://github.com/yiwensong/lzss)
 
-* Parallelized implementation of LZSS compression for the GPU.
+* Parallelized implementation of LZSS compression for the GPU with CUDA.
 * The goal of the project was to test feasibility of using message compression in HPC applications.
 * Result: your network needs to be *really* bad for this to be worth anything.
-* Implemented in CUDA and deployed on AWS.
 
 ### [ImgCompress](https://github.com/yiwensong/imgcompress)
 
@@ -57,8 +57,6 @@ Major GPA: 3.739
 ### [Poker AI](https://github.com/yiwensong/huplo)
 
 * Heads Up Pot-Limit Omaha (HUPLO) AI that uses Monte Carlo search trees and bad machine learning.
-* Preflop play uses machine learning on hole cards features like connectedness, suitedness and value.
-* Postflop play uses Monte Carlo Search Trees.
 * 💩 at poker.
 * Passable at Tic-Tac-Toe.
 
@@ -75,8 +73,20 @@ Major GPA: 3.739
 * [Please do not attempt to date potential future employees.](https://yiwen.date)
 
 ---
-## Interests, Skills and Intangibles
-**Hobbies**: Reading the manual, probability  
-**Language**: Python, React (which is Javascript, I guess), Golang, Psuedocode, fish, Mandarin  
-**Skills**: INDEX-MATCH Fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User  
-**Intangibles**: Clicks buttons really fast, doesn't use an external monitor  
+## SEO
+**Interests**: Change management, system reliability, developer productivity tooling  
+**Languages**: Python, React (which is Javascript, I guess), Golang, Psuedocode, fish, Mandarin  
+**Skills**: INDEX-MATCH fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User  
+**Intangibles**: Clicks buttons really fast, reads the manual  
+<div style="font-size:0.2em">
+**Literally just SEO terms that vaguely relate to my work**:
+Cloud computing, devops, dev-ops, design, software engineering,
+software developer, infrastructure, SRE, reliability engineering, docker,
+containers, kuberenetes, AWS, amazon web services, s3, EC2,
+google cloud platform, gcp, puppet, terraform, services, continous deployment,
+continuous integration, CI, CD, CI/CD, Jenkins, build, test execution,
+test infrastructure, developer tooling, tox, make, bazel, UI, UX,
+web developer, web development, web dev, SaaS, PaaS, backend,
+development to production, DNS, load balancer, Travis, Chef, postgres, mysql,
+mongodb, database management, migrations
+</div>
