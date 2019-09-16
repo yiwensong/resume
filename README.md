@@ -78,7 +78,6 @@ Major GPA: 3.739
 **Languages**: Python, React (which is Javascript, I guess), Golang, Psuedocode, fish, Mandarin  
 **Skills**: INDEX-MATCH fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User  
 **Intangibles**: Clicks buttons really fast, reads the manual  
-<div style="font-size:0.2em">
 **Literally just SEO terms that vaguely relate to my work**:
 Cloud computing, devops, dev-ops, design, software engineering,
 software developer, infrastructure, SRE, reliability engineering, docker,
@@ -88,5 +87,4 @@ continuous integration, CI, CD, CI/CD, Jenkins, build, test execution,
 test infrastructure, developer tooling, tox, make, bazel, UI, UX,
 web developer, web development, web dev, SaaS, PaaS, backend,
 development to production, DNS, load balancer, Travis, Chef, postgres, mysql,
-mongodb, database management, migrations
-</div>
+mongodb, database management, migrations  
