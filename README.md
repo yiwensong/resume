@@ -15,7 +15,7 @@
 * Lead the project for implementing automated deployment health evaluation for our deployment system.
 * Contributed to creating blue/green deployments to improve the company's services' reliability and fault tolerance story.
 * Designed improvments to the deployment web frontend (internal developer-facing) to be more clear and user-friendly.
-* Holds the (unofficial) team record for most robot tickets cleared in a week (a key contributor to the team's debt and toil).
+* Holds the (unofficial) team record for most robot tickets cleared in a week (a major contributor to the team's debt and toil).
 
 ### Release Engineering at Yelp (Nov 2017 - Apr 2019)
 *San Francisco, CA*
