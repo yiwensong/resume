@@ -8,20 +8,14 @@
 [Email](mailto:songzgy@gmail.com)
 
 ---
-## Education
-### University of California, Berkeley - June 2016
-
-Computer Science, B.A.  
-Major GPA: 3.739  
-
----
 ## Work Experience
 ### Deploy Team at Stripe (Apr 2019 - Present)
-*San Francisco, CA*
+*San Francisco, CA (and partially remote)*
 
-* Lead the unattended deployments project for safely automating service deployments.
-* Improved canarying and added automated reliability features by integrating with our health evaluation service.
-* Designed improvments to the deployment web frontend to be more clear and user-friendly.
+* Lead the project for implementing automated deployment health evaluation for our deployment system.
+* Contributed to creating blue/green deployments to improve the company's services' reliability and fault tolerance story.
+* Designed improvments to the deployment web frontend (internal developer-facing) to be more clear and user-friendly.
+* Holds the (unofficial) team record for most robot tickets cleared in a week (a key contributor to the team's debt and toil).
 
 ### Release Engineering at Yelp (Nov 2017 - Apr 2019)
 *San Francisco, CA*
@@ -38,6 +32,13 @@ Major GPA: 3.739
 * Developed a Python package for quickly scripting models and risk calculation on live market data.
 
 ### Trading Intern at Old Mission Capital (Jun 2015 - Aug 2015)
+
+---
+## Education
+### University of California, Berkeley - June 2016
+
+Computer Science, B.A.  
+Major GPA: 3.739  
 
 ---
 ## Projects
