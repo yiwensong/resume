@@ -9,26 +9,26 @@
 
 ---
 ## Work Experience
-### Deploy Team at Stripe (Apr 2019 - Present)
+### Deploy Team at Stripe (Apr 2019 - Aug 2021)
 *San Francisco, CA (and partially remote)*
 
-* Lead the project for implementing automated deployment health evaluation for our deployment system.
-* Contributed to creating blue/green deployments to improve the company's services' reliability and fault tolerance story.
-* Designed improvments to the deployment web frontend (internal developer-facing) to be more clear and user-friendly.
+* Led project for building out automated deployment health evaluation. Deployments went from fully manually evaluated to 80%+ automatic evaluation.
+* Designed and implemented blue/green deployments on top of Stripe's Kubernetes platform to improve services' reliability and fault tolerance story.
+* Contributed to the accessibility and usability designs of internal developer tooling webface by adding and migrating to page templates and standardized components.
 * Holds the (unofficial) team record for most robot tickets cleared in a week (a major contributor to the team's debt and toil).
 
 ### Release Engineering at Yelp (Nov 2017 - Apr 2019)
 *San Francisco, CA*
 
-* Worked on an internal frontend service that tracks and displays tech debt and developer prductivity.
 * Designed and implemented API for determining responsibility and ownership of code, databases, and other resources.
+* Worked on an internal frontend service that tracks and displays tech debt and developer productivity.
 * Improved Git management tools and code review infrastructure to be more resilient to catastrophic failures.
 
 ### Trading and Data at Old Mission Capital (Aug 2016 - May 2017)
 *Chicago, IL*
 
 * Improved data pipeline and research infrastructure reliability and usability.
-* Added parallelism to data ingestion and created automated sanity checking to reduce overhead of analysis.
+* Added parallelism to data ingestion and created automated gut-check test suites to reduce overhead of analysis.
 * Developed a Python package for quickly scripting models and risk calculation on live market data.
 
 ### Trading Intern at Old Mission Capital (Jun 2015 - Aug 2015)
