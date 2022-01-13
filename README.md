@@ -11,7 +11,7 @@
 ## Work Experience
 
 ### Platform at Poggio Labs (Feb 2022 - _Present_)
-*San Francisco, CA (and partially remote)*
+*San Francisco, CA (remote)*
 
 * Built reliable and observable batch and streaming data pipelines from the ground up.
 * Built change data capture system and no-code runtime.
