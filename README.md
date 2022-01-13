@@ -9,6 +9,14 @@
 
 ---
 ## Work Experience
+
+### Platform at Poggio Labs (Feb 2022 - _Present_)
+*San Francisco, CA (and partially remote)*
+
+* Built reliable and observable batch and streaming data pipelines from the ground up.
+* Built change data capture system and no-code runtime.
+* Public-facing APIs and client SDK with a pretty manual for people to read.
+
 ### Deploy Team at Stripe (Apr 2019 - Aug 2021)
 *San Francisco, CA (and partially remote)*
 
