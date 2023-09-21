@@ -9,6 +9,13 @@
 
 ---
 ## Work Experience
+### Connectivity Team at Airtable (Feb 2022 - present)
+*San Francisco, CA*
+
+* Designed and led Sync History project to provide better observability and operability to Airtable's Sync product.
+* Worked on a project to remove duplicate Airtable to Airtable syncs by integrating sync system with webhooks.
+* Ideated a refresh of the error system for Airtable sync.
+
 ### Deploy Team at Stripe (Apr 2019 - Aug 2021)
 *San Francisco, CA (and partially remote)*
 
