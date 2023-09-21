@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf8") as readme:
 
 setuptools.setup(
     name="md-resume",
-    version="0.2.7",
+    version="0.2.8",
     license="MIT",
     author="yiwen song",
     author_email="songzgy@gmail.com",
@@ -20,7 +20,7 @@ setuptools.setup(
     ],
     classifiers=[
         "Natural Language :: English",
-        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.11",
     ],
     keywords=[
         "resume",

@@ -3,23 +3,23 @@ repos:
     rev: v4.4.0
     hooks:
       - id: trailing-whitespace
-        language_version: python3.9
+        language_version: python3.11
       - id: end-of-file-fixer
-        language_version: python3.9
+        language_version: python3.11
       - id: check-yaml
-        language_version: python3.9
+        language_version: python3.11
       - id: debug-statements
-        language_version: python3.9
+        language_version: python3.11
       - id: name-tests-test
-        language_version: python3.9
+        language_version: python3.11
       - id: check-added-large-files
-        language_version: python3.9
+        language_version: python3.11
       - id: check-byte-order-marker
-        language_version: python3.9
+        language_version: python3.11
       - id: requirements-txt-fixer
-        language_version: python3.9
+        language_version: python3.11
       - id: detect-private-key
-        language_version: python3.9
+        language_version: python3.11
   - repo: https://github.com/asottile/reorder_python_imports
     rev: v3.11.0
     hooks:
@@ -28,4 +28,4 @@ repos:
     rev: 23.9.1
     hooks:
       - id: black
-        language_version: python3.9
+        language_version: python3.11
