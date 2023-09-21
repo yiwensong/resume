@@ -9,14 +9,14 @@
 
 ---
 ## Work Experience
-### Connectivity Team at Airtable (Feb 2022 - present)
-*San Francisco, CA*
+### Sync at Airtable (Feb 2022 - present)
+*New York City, NY*
 
-* Designed and led Sync History project to provide better observability and operability to Airtable's Sync product.
-* Worked on a project to remove duplicate Airtable to Airtable syncs by integrating sync system with webhooks.
-* Ideated a refresh of the error system for Airtable sync.
+* Designed and led several improvements to the sync product's observability, including an internal tool to track run history and a cross-server tracing scheme for a cross-service system on top of traditionally monolithic tooling.
+* Contributed to the Real-Time Sync project, which was a multi-team and multi-quarter initiative to add a live-editing experience between multiple Airtable bases.
+* Following this launch, led efforts to significantly improve performance and scaling: reduced end-to-end latency P99 from 24s to 4s and increased the per-base sync limit from 100 to 2000.
 
-### Deploy Team at Stripe (Apr 2019 - Aug 2021)
+### Deploy at Stripe (Apr 2019 - Aug 2021)
 *San Francisco, CA (and partially remote)*
 
 * Led project for building out automated deployment health evaluation. Deployments went from fully manually evaluated to 80%+ automatic evaluation.
@@ -48,43 +48,10 @@ Computer Science, B.A.
 Major GPA: 3.739  
 
 ---
-## Projects
-### [GPU Compression](https://github.com/yiwensong/lzss)
-
-* Parallelized implementation of LZSS compression for the GPU with CUDA.
-* The goal of the project was to test feasibility of using message compression in HPC applications.
-* Result: your network needs to be *really* bad for this to be worth anything.
-
-### [ImgCompress](https://github.com/yiwensong/imgcompress)
-
-* ImgCompress is a hackathon project aimed at becoming the future of compression.
-* Uploads binaries to Imgur as PNGs and stores the 7 character Imgur URL.
-* Compression ratio is over 700 000 and implementation is less than 200 lines of python.
-* Better than the CUDA stuff I made.
-
-### [Poker AI](https://github.com/yiwensong/huplo)
-
-* Heads Up Pot-Limit Omaha (HUPLO) AI that uses Monte Carlo search trees and bad machine learning.
-* 💩 at poker.
-* Passable at Tic-Tac-Toe.
-
-### [Yet Another Personal Site | DefDontHire.Me](https://github.com/yiwensong/yiwensong.github.io)
-
-* Technology has advanced to a point where you can create a beautiful website without knowing any web.
-* Literally anyone can download a Bootstrap template and write some BS and call it a personal site.
-* [Exhibit A](http://yiwensong.com)
-
-### [yiwen.date](https://github.com/yiwensong/yiwen.date)
-
-* Another personal site, but maybe a little more personal.
-* Frontend written in React, backend written with Flask.
-* [Please do not attempt to date potential future employees.](https://yiwen.date)
-
----
 ## SEO
-**Interests**: Change management, system reliability, developer productivity tooling  
-**Languages**: Python, React (which is Javascript, I guess), Golang, Psuedocode, fish, Mandarin  
-**Skills**: INDEX-MATCH fiend, Vim Connoiseur, Nash Equilibrium Hobbyist, "sudo rm -rf /" Frequent User  
+**Interests**: Scale and reliability, developer productivity tooling, making frontend changes but only as a hobby  
+**Languages**: Python, Typescript/Javascript/React, Golang, Psuedocode, fish, Mandarin  
+**Skills**: INDEX-MATCH fiend, vim config fiddler, top 5% in valorant and tft, "sudo rm -rf /" frequent user  
 **Intangibles**: Clicks buttons really fast, reads the manual  
 **Literally just SEO terms that vaguely relate to my work**:
 Cloud computing, devops, dev-ops, design, software engineering,
@@ -95,4 +62,5 @@ continuous integration, CI, CD, CI/CD, Jenkins, build, test execution,
 test infrastructure, developer tooling, tox, make, bazel, UI, UX,
 web developer, web development, web dev, SaaS, PaaS, backend,
 development to production, DNS, load balancer, Travis, Chef, postgres, mysql,
-mongodb, database management, migrations  
+mongodb, database management, migrations, AI, ML,
+I don't actually know AI or ML but maybe I get more clicks this way  
