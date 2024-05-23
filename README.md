@@ -9,7 +9,7 @@
 
 ---
 ## Work Experience
-### Sync at Airtable (Feb 2022 - present)
+### Sync at Airtable (Feb 2022 - Feb 2024)
 *New York City, NY*
 
 * Designed and led several improvements to the sync product's observability, including an internal tool to track run history and a cross-server tracing scheme for a cross-service system on top of traditionally monolithic tooling.
